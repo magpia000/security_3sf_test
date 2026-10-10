@@ -1,0 +1,454 @@
+{
+  "resultsPerPage": 8,
+  "startIndex": 0,
+  "totalResults": 8,
+  "format": "NVD_CVE",
+  "version": "2.0",
+  "timestamp": "2026-10-10T06:00:00.000",
+  "vulnerabilities": [
+    {
+      "cve": {
+        "id": "CVE-2009-0001",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "Sample flaw fixed in 0.9.8i."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV2": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "2.0",
+                "baseScore": 5.0
+              },
+              "baseSeverity": "MEDIUM"
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:0.9.8g:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000"
+                  },
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:0.9.8h:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2014-0224",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "CCS injection."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV31": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "3.1",
+                "baseScore": 7.4,
+                "baseSeverity": "HIGH"
+              }
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionStartIncluding": "0.9.8",
+                    "versionEndExcluding": "0.9.8za"
+                  },
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionStartIncluding": "1.0.1",
+                    "versionEndExcluding": "1.0.1h"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2016-0800",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "DROWN: SSLv2 cross-protocol attack."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV31": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "3.1",
+                "baseScore": 5.9,
+                "baseSeverity": "MEDIUM"
+              }
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionEndExcluding": "1.0.1s"
+                  },
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionStartIncluding": "1.0.2",
+                    "versionEndExcluding": "1.0.2g"
+                  }
+                ]
+              },
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2016-2177",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "Pointer arithmetic undefined behaviour in 1.0.2."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV31": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "3.1",
+                "baseScore": 5.9,
+                "baseSeverity": "MEDIUM"
+              }
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionStartIncluding": "1.0.2",
+                    "versionEndExcluding": "1.0.2h"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2023-0464",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "Excessive resource use verifying policy constraints."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV31": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "3.1",
+                "baseScore": 7.5,
+                "baseSeverity": "HIGH"
+              }
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionStartIncluding": "1.1.1",
+                    "versionEndExcluding": "1.1.1u"
+                  },
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionStartIncluding": "3.0.0",
+                    "versionEndExcluding": "3.0.9"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2025-0001",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "Sample flaw in 3.5.0 only."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV40": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "4.0",
+                "baseScore": 9.8,
+                "baseSeverity": "CRITICAL"
+              }
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionStartIncluding": "3.5.0",
+                    "versionEndExcluding": "3.5.1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2015-9999",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Rejected",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "** REJECT ** Duplicate."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {},
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionEndExcluding": "9.9.9"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2010-5298",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [
+          {
+            "sourceIdentifier": "cve@mitre.org",
+            "tags": [
+              "disputed"
+            ]
+          }
+        ],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "** DISPUTED ** Sample disputed flaw."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV30": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "3.0",
+                "baseScore": 4.0,
+                "baseSeverity": "MEDIUM"
+              }
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionStartIncluding": "0.9.8",
+                    "versionEndIncluding": "0.9.8zh"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

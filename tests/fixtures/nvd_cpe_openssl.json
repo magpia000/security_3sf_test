@@ -1,0 +1,118 @@
+{
+  "resultsPerPage": 18,
+  "startIndex": 0,
+  "totalResults": 18,
+  "format": "NVD_CPE",
+  "version": "2.0",
+  "timestamp": "2026-10-10T06:00:00.000",
+  "products": [
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:0.9.8g:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:0.9.8h:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:0.9.8i:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:0.9.8za:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:0.9.8zh:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:1.0.1:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:1.0.1u:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:1.0.2:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:1.0.2u:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:1.1.1:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:1.1.1w:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:3.0.0:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:3.0.15:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:3.5.0:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:3.5.4:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:3.6.0:beta1:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:3.6.0:*:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    },
+    {
+      "cpe": {
+        "cpeName": "cpe:2.3:a:openssl:openssl:1.0.1:fips:*:*:*:*:*:*",
+        "deprecated": false
+      }
+    }
+  ]
+}

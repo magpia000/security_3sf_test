@@ -1,0 +1,88 @@
+{
+  "vulns": [
+    {
+      "id": "GHSA-4jrv-ppp4-jm57",
+      "aliases": [
+        "CVE-2022-25647"
+      ],
+      "modified": "2024-01-01T00:00:00Z",
+      "summary": "Deserialization of Untrusted Data in Gson",
+      "details": "The package com.google.code.gson:gson before 2.8.9 are vulnerable to Deserialization of Untrusted Data.",
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "Maven",
+            "name": "com.google.code.gson:gson",
+            "purl": "pkg:maven/com.google.code.gson/gson"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "2.8.9"
+                }
+              ]
+            }
+          ],
+          "versions": [
+            "1.7",
+            "1.7.1",
+            "2.8.8"
+          ]
+        }
+      ],
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "database_specific": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "GHSA-0000-0000-0000",
+      "aliases": [],
+      "summary": "Advisory without CVE",
+      "details": "Sample advisory that has no CVE alias.",
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "Maven",
+            "name": "com.google.code.gson:gson"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "1.7"
+                },
+                {
+                  "last_affected": "1.7.1"
+                }
+              ]
+            },
+            {
+              "type": "GIT",
+              "repo": "https://github.com/google/gson",
+              "events": [
+                {
+                  "introduced": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "severity": "MODERATE"
+      }
+    }
+  ]
+}

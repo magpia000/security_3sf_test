@@ -1,0 +1,74 @@
+# 컴포넌트 매핑 파일 (PRD 4.1-3)
+# - name: 입력 엑셀의 컴포넌트명(대소문자·앞뒤 공백 무시)
+# - type: maven | native
+# - maven: Maven 좌표(group:artifact) — type이 maven일 때 필수
+# - cpe: CPE 접두어 목록(cpe:2.3:a:vendor:product) — type이 native일 때 필수
+# - version_rule: maven | openssl | letter_suffix | semver_like
+# - version_prefix: 입력 버전에서 떼어낼 접두사(선택)
+# - branch_depth: 브랜치로 볼 앞자리 수(선택, 기본 2) — PRD 4.4 표의 브랜치 정의
+# - lts_branches: LTS 브랜치 목록(선택, 수작업 관리)
+#
+# CPE vendor 표기는 첫 수집 결과로 확정한다(PRD OQ-1): libjpeg, LLVM, zlib.
+# LTS 목록은 공식 정책으로 확인 후 확정한다(PRD OQ-6).
+
+components:
+  - name: Apache Commons Compress
+    type: maven
+    maven: org.apache.commons:commons-compress
+    version_rule: maven
+
+  - name: Apache MINA
+    type: maven
+    maven: org.apache.mina:mina-core
+    version_rule: maven
+
+  - name: GNU Compiler Collection
+    type: native
+    cpe: ["cpe:2.3:a:gnu:gcc"]
+    version_rule: semver_like
+    branch_depth: 1
+
+  - name: googlegson
+    type: maven
+    maven: com.google.code.gson:gson
+    version_rule: maven
+
+  - name: libjpeg
+    type: native
+    cpe: ["cpe:2.3:a:ijg:libjpeg"]
+    version_rule: letter_suffix
+
+  - name: LLVM - Low Level Virtual Machine
+    type: native
+    cpe: ["cpe:2.3:a:llvm:llvm"]
+    version_rule: semver_like
+    version_prefix: "llvmorg-"
+    branch_depth: 1
+
+  - name: OpenSSL
+    type: native
+    cpe: ["cpe:2.3:a:openssl:openssl"]
+    version_rule: openssl
+    lts_branches: ["3.0", "3.5"]
+
+  - name: protobuf-java
+    type: maven
+    maven: com.google.protobuf:protobuf-java
+    version_rule: maven
+
+  - name: SQLite
+    type: native
+    cpe: ["cpe:2.3:a:sqlite:sqlite"]
+    version_rule: semver_like
+    branch_depth: 2
+
+  - name: zip4j
+    type: maven
+    maven: net.lingala.zip4j:zip4j
+    version_rule: maven
+
+  - name: zlib
+    type: native
+    cpe: ["cpe:2.3:a:zlib:zlib", "cpe:2.3:a:gnu:zlib"]
+    version_rule: semver_like
+    branch_depth: 2

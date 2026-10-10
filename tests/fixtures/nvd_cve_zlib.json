@@ -1,0 +1,163 @@
+{
+  "resultsPerPage": 3,
+  "startIndex": 0,
+  "totalResults": 3,
+  "format": "NVD_CVE",
+  "version": "2.0",
+  "timestamp": "2026-10-10T06:00:00.000",
+  "vulnerabilities": [
+    {
+      "cve": {
+        "id": "CVE-2016-9840",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "inftrees.c pointer arithmetic."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV31": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "3.1",
+                "baseScore": 8.8,
+                "baseSeverity": "HIGH"
+              }
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:zlib:zlib:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionEndExcluding": "1.2.9"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2018-25032",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "Memory corruption when deflating."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV31": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "3.1",
+                "baseScore": 7.5,
+                "baseSeverity": "HIGH"
+              }
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:zlib:zlib:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionEndExcluding": "1.2.12"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2022-37434",
+        "sourceIdentifier": "secalert@redhat.com",
+        "published": "2016-01-01T00:00:00.000",
+        "lastModified": "2024-01-01T00:00:00.000",
+        "vulnStatus": "Analyzed",
+        "cveTags": [],
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "Heap-based buffer over-read in inflate."
+          },
+          {
+            "lang": "es",
+            "value": "es"
+          }
+        ],
+        "metrics": {
+          "cvssMetricV31": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "cvssData": {
+                "version": "3.1",
+                "baseScore": 9.8,
+                "baseSeverity": "CRITICAL"
+              }
+            }
+          ]
+        },
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "operator": "OR",
+                "negate": false,
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:zlib:zlib:*:*:*:*:*:*:*:*",
+                    "matchCriteriaId": "00000000-0000-0000-0000-000000000000",
+                    "versionEndIncluding": "1.2.12"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
